@@ -148,3 +148,9 @@ ALTER TABLE MI181_KCLAPID."_training"
 	
 ---
 
+
+ALTER USER MI181_KCLAPID quota unlimited on USERS;
+
+INSERT INTO MI181_KCLAPID."_client" VALUES (1, 'Paul', 'Salazar', 'T', 'Mendiola', '09564');
+INSERT INTO MI181_KCLAPID."_client" VALUES (2, 'Cath', 'Salazar', 'T', 'Taguig', '09123');
+INSERT INTO MI181_KCLAPID."_delivery" VALUES (1, 'Grab', '12-01-2019');
